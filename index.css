@@ -1,0 +1,185 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=The+Nautigal:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes show_image:hover {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+.show-section {
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.show-background {
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.show-hader {
+    padding-top: 111px;
+}
+
+.show-image {
+    padding-top: 33px;
+    padding-right: 50px;
+}
+
+.text-area {
+    display: flex;
+}
+
+.show-header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.show-peragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.peragraph-area {
+    padding-left: 100px;
+}
+
+.show-button {
+    background: #DD0000;
+    border-radius: 5px;
+    width: 147px;
+    height: 46px;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+}
+
+.sbutton-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.plan_background {
+    width: 312px;
+    height: 250px;
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.plan_button a {
+    display: inline-block;
+    text-align: center;
+}
+
+.upcomming {
+    background: #DD0000;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+
+.group {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+
+.blog {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog:hover {
+    color: red;
+}
+
+.goal_item {
+    background-color: white;
+    text-align: center;
+}
+
+.goal_item {
+    background-color: #161616;
+}
+
+.fotter {
+    background-color: white;
+
+}
+
+.goal_fotter {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.goal {
+    color: #FFFFFF;
+}
+
+.day {
+    display: flex;
+}
+
+.blog-author {
+    color: #D1D1D1;
+}
+
+.timing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    justify-content: space-around;
+}
+
+.trans {
+    width: 67px;
+    height: 24px;
+    border: 1px solid black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+
+
+.blogs {
+    width: 312px;
+    height: 362px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    justify-content: space-between;
+}
